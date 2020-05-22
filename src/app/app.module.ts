@@ -5,13 +5,15 @@ import { FormsModule } from '@angular/forms'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { RecipesComponent } from './recipes/recipes.component'
+import { RecipesComponent } from './recipes/recipes.component';
+import { RecipesListComponent } from './recipes-list/recipes-list.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    RecipesComponent
+    RecipesComponent,
+    RecipesListComponent
   ],
   imports: [
     BrowserModule,
